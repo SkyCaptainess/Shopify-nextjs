@@ -1,0 +1,30 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// datasource db {
+//   provider = "postgresql"
+//   url      = env("DATABASE_URL")
+// }
+
+// generator client {
+//   provider = "prisma-client-js"
+// }
+
+
+// model User {
+//   id   String @default(cuid()) @id
+// }
+
+// model Category {
+//   id              String @default(cuid()) @id
+//   front           Boolean @default(false)
+//   // parentCategory  Category @relation(name: "CategoryParent")
+//   // subCategories: [Category!]! @relation(name: "CategoryChildren")
+//   // items           Item[] @relation(references: [id])
+// }
+
+// model Product {
+//   id              String @default(cuid()) @id
+//   title           String
+//   image           String
+// }
